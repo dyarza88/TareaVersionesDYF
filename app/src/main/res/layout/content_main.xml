@@ -25,6 +25,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/content_main_text"
+        android:textColor="@android:color/holo_red_light"
         android:text="Hola"/>
 
 </android.support.constraint.ConstraintLayout>
