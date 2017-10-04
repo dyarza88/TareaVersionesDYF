@@ -26,7 +26,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/content_main_text"
-        android:textColor="@android:color/holo_red_light"
+        android:background="@color/green"
         android:text="Hola"/>
 
     <Button
@@ -37,7 +37,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toRightOf="@id/content_main_hola"
         app:layout_constraintTop_toBottomOf="@id/content_main_text"
-        android:background="@color/azul"
+        android:background="@color/green"
         android:text="prueba1"/>
 
     <Button
@@ -48,6 +48,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/content_main_hola"
+        android:background="@color/green"
         android:text="Saludo"/>
 
 </android.support.constraint.ConstraintLayout>
